@@ -85,7 +85,7 @@ The parameters are defined below. Parameters used in our experiments are set wit
 
 3. `models/`
     * `models.py`: Code for sparse multimodal MoE module.
-    * `densenet.py`: DenseNet encoder. Utilized by `data_crossenc.py`
+    * `densenet.py`: DenseNet encoder. Utilized by `data.py`
     * `moe_module.py`: Used by `models.py` for defining the MoE architecture.
     * `fastmoe/`: Package used by `moe_module.py`. **Instructions for fastmoe setup can be found here: https://github.com/laekov/fastmoe/blob/master/doc/installation-guide.md**
 
