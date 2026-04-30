@@ -27,7 +27,7 @@ Alzheimer’s disease (AD) diagnosis requires analysis of diverse data types to 
 ## Main Scripts
 1. `scripts/main.py`
     * This performs model training and evaluation.
-    * Trained models are saved as `.pth` files to a directory called `saves`.
+    * Trained models are saved as `.pth` files to a directory called `saves/`.
     * Train and evaluation results are saved to a log file in a directory called `logs/`
     * Run using the script, `run_main.sh`:
 ```
