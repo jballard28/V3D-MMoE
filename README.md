@@ -16,12 +16,12 @@ Alzheimer’s disease (AD) diagnosis requires analysis of diverse data types to 
 * **Format:**
     * <ins>Data</ins> are stored as `.hdf5` files, one for each modality, containing a matrix of size `# samples x img_dim1 x img_dim2 x img_dim3`
     * <ins>Labels</ins> are stored as a `.csv` file, with the following columns:
-        * `PTID`: patient ID
+        * `PTID`: Patient ID
         * `imgid_mri`: MRI image ID
         * `imgid_fdg`: FDG PET image ID
         * `Month`: Months since baseline (e.g. 0, 3, 6, 12, 24)
-        * `DX` (diagnosis label): CN/MCI/AD
-        * `split0`: column of strings that are either `train`, `val`, or `test`
+        * `DX`: Diagnosis label (CN/MCI/AD)
+        * `split0`: Data split - column of strings that are either `train`, `val`, or `test`
 
 
 ## Main Scripts
